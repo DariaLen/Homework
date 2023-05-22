@@ -12,36 +12,53 @@
 </head>
 
 <body>
-    <h1>Курс на сегодня</h1>
-    <table class="table-forex">
-        <tr>
-            <th>Флаг</th>
-            <th>Валюта</th>
-            <th>Курс</th>
-        </tr>
-        <tr>
-            <td><img src="./images/american.png" alt="american"><img src="./images/europa.jpg" alt="eu"></td>
-            <td> $ (USD) / € (EUR) </td>
-            <td>0,92€ </td>
-        </tr>
-        <tr>
-            <td><img src="./images/gbr.jpg" alt="gbr"><img src="./images/europa.jpg" alt="eu"></td>
-            <td>￡ (GBR) / € (EUR)</td>
-            <td>1,15€</td>
-        </tr>
-        <tr>
-            <td><img src="./images/jpy.png" alt="jpn"><img src="./images/europa.jpg" alt="eu"></td>
-            <td> ¥ (JPY) / € (EUR)</td>
-            <td>0,0067€</td>
-        </tr>
-        <tr>
-            <td><img src="./images/georgia.jpg" alt="georgia"><img src="./images/europa.jpg" alt="eu"></td>
-            <td> ₾ (GEL) / € (EUR)</td>
-            <td>0,36€</td>
-        </tr>
+    <div class="wrapper">
+        <div class="list">
+            <h2 class="list__title">Список валют</h2>
+            <ul class="list__content wrap-list">
+                <li class="wrap-list__content">€ (EUR) - Евро (Страны Еврозоны)</li>
+                <li class="wrap-list__content">$ (USD) - Доллар (США)</li>
+                <li class="wrap-list__content">£ (GBP) - Фунт стерлингов (Великобритания)</li>
+                <li class="wrap-list__content">Y (JPY) - Иена (Япония)</li>
+                <li class="wrap-list__content">₾ (GEL) - Лари (Грузия)</li>
+            </ul>
+        </div>
+        <div class="table">
+            <h2 class="table__title">Курс на сегодня</h2>
+            <table class="table__forex">
+                <tr>
+                    <th>Флаг</th>
+                    <th>Валюта</th>
+                    <th>Курс</th>
+                </tr>
+                <tr>
+                    <td><img class="images" src="./images/american.png" alt="american"><img class="images"
+                            src="./images/europa.jpg" alt="eu"></td>
+                    <td> $ (USD) / € (EUR) </td>
+                    <td>0,92€ </td>
+                </tr>
+                <tr>
+                    <td><img class="images" src="./images/gbr.jpg" alt="gbr"><img class="images"
+                            src="./images/europa.jpg" alt="eu"></td>
+                    <td>￡ (GBR) / € (EUR)</td>
+                    <td>1,15€</td>
+                </tr>
+                <tr>
+                    <td><img class="images" src="./images/jpy.png" alt="jpn"><img class="images"
+                            src="./images/europa.jpg" alt="eu"></td>
+                    <td> ¥ (JPY) / € (EUR)</td>
+                    <td>0,0067€</td>
+                </tr>
+                <tr>
+                    <td><img class="images" src="./images/georgia.jpg" alt="georgia"><img class="images"
+                            src="./images/europa.jpg" alt="eu"></td>
+                    <td> ₾ (GEL) / € (EUR)</td>
+                    <td>0,36€</td>
+                </tr>
 
-    </table>
-
+            </table>
+        </div>
+    </div>
 </body>
 
 </html>
